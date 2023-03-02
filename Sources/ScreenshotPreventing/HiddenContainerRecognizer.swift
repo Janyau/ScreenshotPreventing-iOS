@@ -35,7 +35,7 @@ struct HiddenContainerRecognizer {
             return "_UITextLayoutCanvasView"
         }
 
-        if #available(iOS 14, *) {
+        if #available(iOS 13, *) {
             return "_UITextFieldCanvasView"
         }
 
